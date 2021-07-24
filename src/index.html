@@ -13,19 +13,9 @@
     />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-        <input
-          type="text"
-          name="searchQuery"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button type="submit">Search</button>
-    </form>
+    <include src="./partials/input.html"></include>
 
-    <div class="gallery"></div>
-
-    <button type="button" class="load-more is-hidden">Load more</button>
+    <include src="./partials/gallery.html"></include>
 
     <script src="./index.js"></script>
   </body>
